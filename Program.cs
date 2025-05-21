@@ -10,6 +10,7 @@ namespace IDF_Project
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
         }
     }
 }
