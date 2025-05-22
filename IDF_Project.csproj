@@ -43,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArtilleryM109.cs" />
+    <Compile Include="Drone.cs" />
+    <Compile Include="F16.cs" />
+    <Compile Include="Hamas.cs" />
+    <Compile Include="IAmmunition.cs" />
+    <Compile Include="IEffectiveAgainst.cs" />
+    <Compile Include="IEnergyBalance.cs" />
+    <Compile Include="ILeftAtacks.cs" />
+    <Compile Include="ITypeOfBomb.cs" />
+    <Compile Include="Iwapons.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Terrorists.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

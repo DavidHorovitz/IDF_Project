@@ -10,6 +10,8 @@ namespace IDF_Project
     {
         static void Main(string[] args)
         {
+            Terrorist achmed = new Terrorist("achmed");
+            achmed.EnterTerroristLevel();
         }
     }
 }
