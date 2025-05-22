@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IDFproject_2105
 {
-    internal class F16 : IWapons, IAmmunition, IEffectiveAgainst, IEnergyBalance, ITypeOfBomb
+    internal class F16 : IWapons, IAmmunition, IEffectiveAgainst, IEnergyBalance, ITypeOfBomb, ILeftAtacks
     {
         string Name = "1 ton or 0.5 ton";
 
@@ -30,7 +30,10 @@ namespace IDFproject_2105
         {
             return name;
         }
-
+        public int GetILeftAtacks(int num)
+        {
+            return num
+        }
 
     }
 }
