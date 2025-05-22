@@ -8,7 +8,8 @@ namespace IDFproject_2105
 {
     internal class ArtilleryM109: IWapons, IAmmunition, IEffectiveAgainst, IEnergyBalance , ITypeOfBomb
     {
-        string Name = "shell";
+
+        string Name = "shell.";
         public string NameOfWapon(string name)
         {
 
