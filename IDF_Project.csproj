@@ -46,8 +46,14 @@
     <Compile Include="ArtilleryM109.cs" />
     <Compile Include="Drone.cs" />
     <Compile Include="F16.cs" />
+<<<<<<< HEAD
     <Compile Include="Hamas.cs" />
     <Compile Include="IAmmunition.cs" />
+=======
+    <Compile Include="IAmmunition.cs" />
+    <Compile Include="Ibase.cs" />
+    <Compile Include="IdfMenu.cs" />
+>>>>>>> 2263735c7c3469f31dbda91d2bf5b6831dfb5183
     <Compile Include="IEffectiveAgainst.cs" />
     <Compile Include="IEnergyBalance.cs" />
     <Compile Include="ILeftAtacks.cs" />

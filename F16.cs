@@ -6,29 +6,26 @@ using System.Threading.Tasks;
 
 namespace IDFproject_2105
 {
-    internal class F16 : IWapons, IAmmunition, IEffectiveAgainst, IEnergyBalance, ITypeOfBomb, ILeftAtacks
+    internal class F16 :  IEnergyBalance,ILeftAtacks
     {
-        string Name = "1 ton or 0.5 ton";
-
-        public string NameOfWapon(string name)
+        string tipe = "1 ton or 0.5 ton";
+        string name = "f16";
+        string[] target = { "building", "person", "car" }; 
+        public string NameOfWapon()
         {
             return name;    
         }
-        public string NameOfAmmunition(string name)
+        public string NameOfAmmunition()
         {
-            return name;
+            return tipe;
         }
-        public string NameOfTargt(string[] names)
+        public string [] NameOfTarget()
         {
-            return names[0];
+            return target;
         }
         public int LeftEnergyBalance(int num)
         {
             return num;
-        }
-        public string GetTypeOfBomb(string name)
-        {
-            return name;
         }
         public int GetILeftAtacks(int num)
         {
