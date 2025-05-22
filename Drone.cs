@@ -31,7 +31,7 @@ namespace IDFproject_2105
         }
         public int GetILeftAtacks(int num)
         {
-            return num
+            return num;
         }
     }
 }
