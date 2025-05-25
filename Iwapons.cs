@@ -8,6 +8,6 @@ namespace IDFproject_2105
 {
     internal interface IWapons
     {
-        string NameOfWapon(string name);
+        string NameOfWapon();
     }
 }

@@ -8,6 +8,6 @@ namespace IDFproject_2105
 {
     internal interface IEffectiveAgainst
     {
-        string NameOfTargt(string[] names);
+        string [] NameOfTargt();
     }
 }

@@ -8,6 +8,6 @@ namespace IDFproject_2105
 {
     internal interface ITypeOfBomb
     {
-        string GetTypeOfBomb(string name);
+        string GetTypeOfBomb();
     }
 }
