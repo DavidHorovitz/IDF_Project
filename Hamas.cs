@@ -22,11 +22,18 @@ namespace IDF_Project
             Console.WriteLine($"Year Of Establishment: {YearOfEstablishment}\n "+
             $"Head Of Organization; {HeadOfOrganization}");
         }
-        public void AddTNewTeroris(string enterTerrorist)
+        public void AddTNewTeroris()
         {
-            //Terrorist a = new Terrorist(enterTerrorist);
-            //a = a.ToString;
-            terroristsDictionary.Add("name: ", enterTerrorist);
+            for (int i = 1; i < 11; i++)
+            {
+                terroristsDictionary.Add("name" + i, "mehabel num " + i);
+            }
+
+            foreach (var value in terroristsDictionary.Values)
+            {
+                Console.WriteLine(value);
+            }
         }
+
     }
 }
