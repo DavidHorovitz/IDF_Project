@@ -8,5 +8,18 @@ namespace IDF_Project
 {
     internal class aman
     {
+        private List<string> Inteligentes()
+        {
+            List<string> inteligent = new List<string> {"dfdd in vd place time "};
+            
+            return inteligent;
+            
+        }
+        
+        
+
+
+
     }
+    
 }
